@@ -1,0 +1,397 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    height: 130px;
+    background-color: #241B18;
+    border-bottom: 2px white solid;
+}
+
+#logo-box {
+    padding-top: 40px;
+    padding-left: 160px;
+}
+
+#top-nav ul {
+    margin-right: 150px;
+    margin-top: -35px;
+    float: right; 
+}
+
+#top-nav ul li {
+    list-style: none;
+    display: inline-block;
+    
+}
+
+#top-nav li a { 
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px 10px 15px;
+    font-size: 15px;
+    
+}
+
+#top-nav li a:hover {
+   color: #F6B92E;
+    font-weight: 900; 
+}
+
+#first-section {
+    margin-top: -1284px;
+    margin-left: 190px;
+    position: relative;
+    width: 70%;
+}
+
+#chair-holder {
+    margin-left: ;
+    position: relative;
+    border-left: 2px white solid;
+    border-bottom: 2px white solid;
+    border-right: 2px white solid;
+    width: 52.1%;
+    height: 407px;
+    
+    
+}
+
+
+#grey-box {
+    width: 47.2%;
+    height: 407px;
+    background-color: #C3BEAB;
+    margin-left: 471px;
+    margin-top: -430px;
+    position: relative;
+    border-right: 2px white solid;
+    border-bottom: 2px white solid;
+}
+
+#grey-box h1 {
+    text-align: center;
+    font-weight: 100;
+    padding-top: 60px;
+}
+
+#grey-box p {
+    text-align: center;
+    font-size: 16px;
+    width: 80%;
+    padding-left: 45px;
+}
+
+#price-tag {
+    margin-top: -150px;
+    margin-left: 360px;
+}
+
+#price-tag h6 {
+    margin-bottom: -15px;
+    font-size: 13px;
+}
+
+#price-tag p {
+   font-size: 21px; 
+    margin-left: 5px;
+}
+
+#price-tag button {
+    background-color: gold;
+    color: grey;
+    margin-top: -90px;
+}
+
+#second-section {
+    display: inline-flex;
+    margin-left: 190px;
+}
+
+
+#livingroom-picture img {
+    width: 60.6%;
+}
+
+#livingroom-text {
+    background-color: #4B3A33;
+    width: 60.6%;
+    height: 120px;
+    margin-top: -27px;
+}
+
+#livingroom-text h5 {
+    text-align: left;
+    padding-top: 15px;
+    padding-left: 15px;
+    color: white;
+}
+
+#livingroom-text p {
+    text-align: left;
+    padding-left: 15px;
+    width: 80%;
+    font-size: 10px;
+    color: white;
+}
+
+#bedroom-picture {
+    margin-left: -197px;
+}
+
+#bedroom-picture img {
+    width: 60.6%;
+}
+
+#bedroom-text {
+    background-color: #241B18;
+    width: 60.6%;
+    height: 120px;
+    margin-top: -27px;
+    
+}
+
+#bedroom-text h5 {
+    text-align: left;
+    padding-top: 15px;
+    padding-left: 15px;
+    color: white;
+}
+
+#bedroom-text p {
+    text-align: left;
+    padding-left: 15px;
+    width: 80%;
+    font-size: 10px;
+    color: white;
+}
+
+#kitchen-picture {
+    margin-left: -196px;
+    margin-top: -1px;
+}
+
+#kitchen-picture img {
+    width: 60.8%;
+}
+
+#kitchen-text {
+    background-color: #4B3A33;
+    width: 60.8%;
+    height: 120px;
+    margin-top: -27px;
+}
+
+#kitchen-text p {
+    text-align: left;
+    padding-left: 15px;
+    width: 80%;
+    font-size: 10px;
+    color: white;
+}
+
+#kitchen-text h5 {
+    text-align: left;
+    padding-top: 15px;
+    padding-left: 15px;
+    color: white;
+}
+
+#third-section {
+    width: 70%;
+    height: 250px;
+    background-color: white;
+    margin-left: 190px;
+    position: relative;
+    margin-top: -22px;
+}
+
+#part-one h5 {
+    padding-top: 40px;
+   width: 30%; 
+    text-align: center;
+    color: grey;
+}
+
+#part-one span {
+    color: black;
+}
+
+#part-two {
+    margin-left: 330px;
+    margin-top: -190px;
+}
+
+#part-two h5 {
+    width: 45%;
+    color: grey;
+    font-size: 13px;
+}
+
+#part-two img {
+    margin-top: -30px;
+    margin-left: 130px;
+}
+
+#picture-info {
+    width: 25%;
+    height: 151px;
+    background-color: #DDDAD3;
+    margin-top: -172px;
+    margin-left: -11px;
+    
+}
+
+#picture-info p {
+    width: 70%;
+    margin-left: 22px;
+    padding-top: 10px;
+}
+
+#picture-info2 {
+    width: 25%;
+    height: 151px;
+    background-color: #DDDAD3;
+    margin-top: -172px;
+    margin-left: 610px;
+    
+}
+
+#picture-info2 p {
+    width: 50%;
+    margin-left: 22px;
+    padding-top: 10px;
+}
+
+#part-three {
+    margin-top: -13px;
+}
+#part-three img {
+  margin-top: -400px;
+    margin-left: 750px;  
+}
+
+#footer {
+    background-color: #D9A53E;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    padding-top: 10px;
+    border-top: 2px solid white;
+ 
+}
+
+#showroom {
+  margin-left: 190px;  
+}
+
+#para {
+    width: 27%;
+}
+
+
+
+#recent-blogs {
+    margin-left: 570px;
+    margin-top: -365px;
+}
+
+#recent-blogs h5 {
+    margin-bottom: 50px;
+}
+
+#recent-blogs p {
+    margin-bottom: 50px;
+    margin-left: 60px;
+    
+}
+
+
+#date-holder {
+    background-color: #493221;
+    width: 5%;
+    height: 50px;
+    padding-left: 30px;
+    
+    
+}
+
+#date-holder p {
+    margin-left: -10px;
+    padding-top: 10px;
+    color: white;
+}
+
+#date-holder2 {
+    background-color: #493221;
+    width: 5%;
+    height: 50px;
+    padding-left: 30px;  
+}
+
+#date-holder2 p {
+    margin-left: -10px;
+    padding-top: 10px;
+    color: white;
+}
+
+#date-holder3 {
+    background-color: #493221;
+    width: 5%;
+    height: 50px;
+    padding-left: 30px;  
+}
+
+#date-holder3 p {
+    margin-left: -10px;
+    padding-top: 10px;
+    color: white;
+}
+
+#para-holder {
+    margin-left: 50px;
+    margin-top: -182px;
+}
+
+#newsletter {
+    margin-left: 930px;
+    margin-top: -285px;
+}
+
+#newsletter input {
+    width: 200px;
+    border: 2px solid #493221;
+}
+
+#newsletter button {
+    background-color: #493221;
+    color: white;
+}
+
+.social {
+    list-style-type: none;
+    text-align: center;
+    position: relative;
+    left: -54px;
+    top: -20px;
+    display: inline-block;    
+}
+
+.social li {
+    display: inline-flex;
+}
+
+.social i {
+    font-size: 150%;
+    margin: 10px;
+    padding: 5% 5% 5% 5%;
+    color: #493221;
+}
+
+.social i:hover {
+    color: #EEECEA;
+}
